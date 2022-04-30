@@ -1,0 +1,35 @@
+
+.faq{
+	padding-left: 10%;
+}
+.faq-main{
+	background-color: white;
+	padding: 2% 10% 5% 10%;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	box-shadow: -20px -20px 20px 1px rgba(140, 38, 242, 0.6);
+}
+.faqfaq{
+	border-radius: 10px;
+	border: 1px solid rgb(140, 38, 242);
+	z-index: 1000000;
+	padding: 3% 3% 0 3%;
+}
+.faqfaq .kiri{
+	float: left; width: 95%;
+}
+.faqfaq .kanan{
+	float: left;
+	width: 5%;
+}
+.faqfaq h6{
+	margin: 3%;
+}
+a h4.kiri{
+	color: black;
+}
+@media screen and (max-width: 749px){
+	.faqfaq .kiri{ float: right; width: 90%; font-size: 75%; margin-bottom: -10%; }
+	.faqfaq .kanan{ float: left; width: 5%; }
+	.faqfaq h6{ font-size: 75% }
+}

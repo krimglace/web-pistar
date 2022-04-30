@@ -1,0 +1,80 @@
+*{ font-family: Franklin Gothic Medium; }
+.header{ padding-right: 10%; }
+.header-left h1{ font-family: monotype corsiva; }
+.header-left h2{ font-size: 300%; color: black; }
+u{ text-decoration: none; color: rgb(140, 38, 242); }
+a.pesan-sekarang{ background-color: rgb(140, 38, 242); color: white; border-radius: 10px; margin-bottom: 50px; box-shadow: -10px 10px 20px 1px rgba(140, 38, 242, 0.6); transition: .5s; }
+a.pesan-sekarang:hover{ box-shadow: 10px -10px 20px 1px rgba(140, 38, 242, 0.6); color: white; transition: .5s; }
+h6 i{ color:rgb(140, 38, 242); }
+.section-1{ margin-top: 20%; }
+.video-pengajar{ padding: 5% 5%; background-repeat: no-repeat; background-size: 50%; background-position: right top; }
+.header-main{ padding-left: 5%; color: rgb(112, 121, 139); border-bottom-right-radius: 100px; background-size: 50%; background-repeat: no-repeat; background-position: right top; }
+.section-4{ background-size: 100%; }
+.section-4 h3, .section-4 h2, .section-4 h6{ line-height: 100%; }
+.cara-pendaftaran{ margin: -5% 10% 0 10%; }
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+	.header-left{ float: left; width: 60%; }
+	.header-right{ float: right; width: 40%; margin-bottom: -20%; margin-right: -10%; margin-top: 10%; }
+	.section{ margin: 30px 10%; }
+	.section-1-left, .section-3-left{ float: left; width: 45%; }
+	.section-1-right, .section-3-right{ float: left; width: 50%; margin-left: 5%; }
+	.section-2-left{ float: right; width: 50%; margin-right: 5%; }
+	.section-2-right{ float: right; width: 45%; }
+	.section-1-right h2, .section-2-left h2, .section-3-right h2{ font-size: 150%; margin-bottom: -10px; }
+	.section-2-left p{ margin-bottom: -10px; }
+	.video-pengajar{ background-size: 20%; background-position: left top; }
+	.video-pengajar-left{ float: left; width: 50%; margin-top: 7%; }
+	.video-pengajar-right{ float: right; width: 45%; }
+	.cara-1, .cara-2, .cara-3, .cara-4, .cara-5, .cara-6, .cara-7, .cara-8, .cara-9, .cara-10, .cara-11, .cara-angka, .cara-keterangan{ float: left; }
+	.cara-1, .cara-2, .cara-3, .cara-4, .cara-5, .cara-6, .cara-7, .cara-8{ width: 25%; padding: 2% 2%; }
+	.cara-9, .cara-10, .cara-11{ width: 33%; padding: 2% 2%; }
+	.cara-1 i, .cara-2 i, .cara-3 i, .cara-4 i, .cara-5 i,.cara-6 i, .cara-7 i, .cara-8 i, .cara-9 i, .cara-10 i, .cara-11 i{ border-radius: 20px; font-size: 150%; margin-left: 10%; }
+	.cara-2, .cara-8{ margin-top: 10%; }
+	.cara-3{ margin-top: 20%; }
+	.cara-4{ margin-top: 30%; }
+	.cara-5, .cara-9{ margin-top: -20%; }
+	.cara-6, .cara-10{ margin-top: -10%; }
+	.cara-angka{ width: 25%; margin-right: 5%; }
+	.cara-keterangan { width: 70%; font-size: 75%; }
+}
+
+@media screen and (min-width: 1101px){
+	.header-left{ float: left; width: 40%; }
+	.header-right{ float: right; width: 50%; margin-bottom: -20%; margin-right: -10%; }
+	.header-left h2{ margin-top: 30px; }
+	.section{ margin: 30px 10%; }
+	.section-1-left, .section-3-left{ float: left; width: 45%; }
+	.section-1-right, .section-3-right{ float: left; width: 50%; margin-left: 5%; }
+	.section-2-left{ float: right; width: 50%; margin-right: 5%; }
+	.section-2-right{ float: right; width: 45%; }
+	.video-pengajar{ background-size: 20%; background-position: left top; }
+	.video-pengajar-left{ float: left; width: 50%; margin-top: 7%; }
+	.video-pengajar-right{ float: right; width: 45%; }
+	.cara-1, .cara-2, .cara-3, .cara-4, .cara-5, .cara-6, .cara-7, .cara-8, .cara-9, .cara-10, .cara-11, .cara-angka, .cara-keterangan{ float: left; }
+	.cara-1, .cara-2, .cara-3, .cara-4, .cara-5, .cara-6, .cara-7, .cara-8{ width: 25%; padding: 2% 2%; }
+	.cara-9, .cara-10, .cara-11{ width: 33%; padding: 2% 2%; }
+	.cara-1 i, .cara-2 i, .cara-3 i, .cara-4 i, .cara-5 i,.cara-6 i, .cara-7 i, .cara-8 i, .cara-9 i, .cara-10 i, .cara-11 i{ border-radius: 20px; font-size: 150%; margin-left: 10%; }
+	.cara-2, .cara-8{ margin-top: 10%; }
+	.cara-3{ margin-top: 20%; }
+	.cara-4{ margin-top: 30%; }
+	.cara-5, .cara-9{ margin-top: -20%; }
+	.cara-6, .cara-10{ margin-top: -10%; }
+	.cara-angka{ width: 25%; margin-right: 5%; }
+	.cara-keterangan { width: 70%; }
+}
+
+@media screen and (max-width: 749px){
+	.header-left h2{ font-size: 200%; }
+	.section{ margin: 30px 5%; }
+	.section-1-right{ text-align: center; }
+	.section-1-right h5{ margin-top: -75px; }
+	.section-1-right h2{ font-size: 150%; }
+	.section-2-left h2, .section-3-right h2{ font-size: 150%; margin-top: 10%; margin-bottom: -10px; }
+	.section-3-right p, .section-3-right h6{ font-size: 80%; }
+	.header-main{ background-size: 20%; }
+	.cara-1, .cara-2, .cara-3, .cara-4, .cara-5, .cara-6, .cara-7, .cara-8, .cara-9, .cara-10, .cara-11{ margin-top: 10%; border: 5px double rgb(140, 38, 242); padding: 10px; border-radius: 25px; }
+	.cara-angka{ float: right; width: 40%; margin-right: 5%; margin-top: -25%; opacity: 50%; }
+	.cara-1 i, .cara-2 i, .cara-3 i, .cara-4 i, .cara-5 i,.cara-6 i, .cara-7 i, .cara-8 i, .cara-9 i, .cara-10 i, .cara-11 i{ border-radius: 20px; font-size: 150%; }
+	.section-4{ background-attachment: fixed; }
+}

@@ -1,0 +1,3 @@
+[17-Dec-2021 00:15:36 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) in /home/u1702441/public_html/wp-content/plugins/mailpoet/vendor-prefixed/nesbot/carbon/src/Carbon/Traits/Creator.php on line 2
+[17-Dec-2021 00:41:45 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) in /home/u1702441/public_html/wp-content/plugins/mailpoet/vendor-prefixed/nesbot/carbon/src/Carbon/Traits/Creator.php on line 2
+[17-Dec-2021 00:46:47 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 8192 bytes) in /home/u1702441/public_html/wp-content/plugins/mailpoet/vendor-prefixed/nesbot/carbon/src/Carbon/Traits/Creator.php on line 2
